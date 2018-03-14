@@ -2,6 +2,8 @@
 # file:basic_grammar.py
 # this is basic grammar for python
 
+import sys
+
 # 1.indentation
 if True:
     print("it is true")
@@ -30,7 +32,7 @@ multi-line comment
 """
 
 # multi-statement
-import sys; x = "ming"; sys.stdout.write(x + '\n')
+x = "ming"; sys.stdout.write(x + '\n')
 
 # line output
 x = "hello"
